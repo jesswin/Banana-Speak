@@ -48,8 +48,8 @@ body{
   max-width: 35%;
   display: inline;
   font-size: 1rem;
-  height: 20vh;
-  max-height:20vh;
+  height: 15vh;
+  max-height:15vh;
   vertical-align: bottom;
 }
 button{
@@ -58,7 +58,7 @@ button{
     color: var(--secondary-color);
     font-size: .7rem;
     text-align: center;
-    padding: 1rem;
+    padding: 0.8rem;
     margin: 0 0.3rem;
     vertical-align: middle;
 }
@@ -68,16 +68,16 @@ button{
   width: 35%;
   display: inline-block;
   font-size: 1rem;
-  height: 20vh;
+  height: 15vh;
   color: gray;
   /* word-wrap: break-word; */
   overflow: scroll;
 }
-.footer {
-    position: fixed;
-    width: 100%;
+footer{
+    margin: auto;
 }
     footer img{
         bottom: 0;
         width: 100%;
+        position: fixed;
 }
