@@ -84,7 +84,7 @@ body {
     margin-bottom: 170px;
 } */
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
