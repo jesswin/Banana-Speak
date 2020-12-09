@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
 
 @media screen and (max-width: 500px){
+    html{
+        min-height: 200%;
+    }
 body .head{
     margin-top: 10rem;
     margin-bottom: 4rem;
@@ -81,14 +84,11 @@ body {
     margin-bottom: 170px;
 } */
 .footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
     footer img{
         bottom: 0;
         width: 100%;
-}
-html{
-    min-height: 200%;
 }

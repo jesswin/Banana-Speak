@@ -27,8 +27,4 @@ function clickFunc() {
       // outputDiv.innerText="anannana "+ txtInput.value;
       // console.log(outputDiv.innerHTML);
 }
-document.querySelector("body").addEventListener("resize",resizee());
-function resizee(){
-      var innerScreenHeight = window.innerHeight;
-      document.querySelector(".footer").style.top = innerScreenHeight + "px";
-}
+
