@@ -28,3 +28,14 @@ function clickFunc() {
       // console.log(outputDiv.innerHTML);
 }
 
+txtInput.addEventListener("focusin",increaseHeight);
+txtInput.addEventListener("blur",decreaseHeight);
+
+function increaseHeight(){
+document.querySelector("html").style.minHeight="200%";
+}
+function decreaseHeight(){
+      document.querySelector("html").style.minHeight="100%";
+}
+
+
