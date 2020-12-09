@@ -80,11 +80,12 @@ button{
 body {
     margin-bottom: 170px;
 } */
-footer img{
+.footer {
     position: fixed;
     bottom: 0;
-    /* height: 150px; */
-    background-color: #3167b1;
     width: 100%;
-    left: 0;
-  }
+}
+    footer img{
+        bottom: 0;
+        width: 100%;
+}
