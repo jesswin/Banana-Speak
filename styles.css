@@ -5,6 +5,12 @@ body .head{
     margin-top: 10rem;
     margin-bottom: 4rem;
     }
+#main button{
+    padding:0.3rem ;
+}
+footer img{
+    
+}
 }
 
 :root{
@@ -51,7 +57,7 @@ button{
     font-size: .7rem;
     text-align: center;
     padding: 1rem;
-    margin: 0 1rem;
+    margin: 0 0.3rem;
     vertical-align: middle;
 }
 #main #output{
@@ -66,7 +72,11 @@ button{
   overflow: scroll;
 }
 footer img{
-    width: 100%;  
-    /* position: absolute;
-    bottom: 0;   */
+    width: 100%;
+    position: absolute;
+    bottom: 0;  
+}
+html {
+    position: relative;
+    min-height: 100%;
 }
