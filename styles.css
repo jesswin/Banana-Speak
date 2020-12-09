@@ -8,9 +8,6 @@ body .head{
 #main button{
     padding:0.3rem ;
 }
-html {
-    height: 130%;
-}
 }
 
 :root{
@@ -71,12 +68,23 @@ button{
   /* word-wrap: break-word; */
   overflow: scroll;
 }
-footer img{
-    width: 100%;
+/* footer img{
+    width: 100%; 
     position: absolute;
-    bottom: 0;  
-}
-html {
+    bottom: 0;
+} */
+/* html {
     position: relative;
     min-height: 100%;
 }
+body {
+    margin-bottom: 170px;
+} */
+footer img{
+    position: fixed;
+    bottom: 0;
+    /* height: 150px; */
+    background-color: #3167b1;
+    width: 100%;
+    left: 0;
+  }
